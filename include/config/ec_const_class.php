@@ -1,8 +1,8 @@
 <?php
     class ec_const_class{
-        public const HOST = 'mysql:dbname=bcdhm_sapporo_pf0001;host=mysql34.conoha.ne.jp';
-        public const LOGIN_USER = 'bcdhm_sapporo_pf0001';
-        public const PASSWORD = 'A7c2b#Nw';
+        public const HOST = '';
+        public const LOGIN_USER = '';
+        public const PASSWORD = '';
 
         public const CREATE_PRE_USER = "insert into pre_user(urltoken, mail, date, isUsed)values(:urltoken, :mail, now(), '0');";
         public const IS_USED_MAIL = "SELECT user_id FROM  ec_Authenticated_user WHERE mail=:mail";
